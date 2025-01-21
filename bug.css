@@ -1,0 +1,1 @@
+The CSS rule `:hover` is not working as expected on a specific element.  The element doesn't change style when the mouse hovers over it. This might be due to a few reasons: incorrect selector, conflicting styles, or an issue with event propagation.
