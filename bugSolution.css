@@ -1,0 +1,26 @@
+/* bugSolution.css */
+
+/* Ensure that the parent element does not capture the hover event */
+.parent {
+  pointer-events: none;
+}
+
+.element {
+  background-color: lightblue;
+  transition: background-color 0.3s ease;
+}
+
+.element:hover {
+  background-color: blue;
+}
+
+/* Or solve the issue of conflicting styles */
+.element {
+  background-color: lightblue !important;
+  transition: background-color 0.3s ease;
+}
+
+.element:hover {
+  background-color: blue !important;
+}
+/* Add more specific selectors if needed */
